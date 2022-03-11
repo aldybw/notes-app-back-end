@@ -92,7 +92,7 @@ const editNoteByIdHandler = (request, h) => {
   }
 
   const response = h.response({
-    status: 'faild',
+    status: 'fail',
     message: 'Gagal memperbarui catatan. Id tidak ditemukan',
   });
   response.code(404);
